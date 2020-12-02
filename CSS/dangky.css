@@ -1,0 +1,17 @@
+
+		#bd{
+			border: 1px solid #DF0101;
+			height: 600px;
+			width: 440px;
+			padding-left: 10px;
+			background-color: #58FAF4;
+		}
+		form{
+			padding-left: 10px;
+		}
+		#dk{
+			color: #31B404;
+			width: 100px;
+			height: 40px;
+			border-color: #01DF01;
+			background-color: #DF3A01;

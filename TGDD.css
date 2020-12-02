@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 15px;
+	font-family: arial;
+}
+#full{
+	width: 100%;
+}
+#header{
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	background-color: black;
+}
+#header #menu #one ul li{
+	display: inline-block;
+	padding-left: 70px;
+	float: left;
+	line-height: 50px;
+}
+#one li a{
+	text-decoration: none;
+	color: white;
+}
+#header ul li input{
+	font-size: 20px;
+}
+#header #mot img{
+	padding-top: 15px;
+}
+
+
+
+
+
+
+

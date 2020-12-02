@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#slider{
+			overflow: hidden;
+			height: 600px;
+			width: 720px;
+			margin: 0 auto;
+		}
+		#con{
+			width: 3000px;
+			-webkit-animation: slider 8s ease infinite;
+		}
+		.slide{
+			float: left;
+			width: 720px;
+			height: 600px;
+		}
+		@-webkit-keyframes slider{
+			
+			20%{margin-left: -0px;}
+			50%{margin-left: -720px;}
+			75%{margin-left: -1440px;}
+			100%{margin-left: -1440px;}
+		}
+	</style>
+</head>
+<body>
+	<div id="slider">
+		<div id="con">
+		<img class="slide" src="image/8.jpg" height="720" width="100%">
+		<img class="slide" src="image/9.jpg" height="720" width="100%">
+		<img class="slide" src="image/10.jpg" height="720" width="100%">
+		
+	</div>
+</body>
+</html>
